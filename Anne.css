@@ -56,3 +56,27 @@ a:hover{
         color:white;
         padding: 10px 60px; /* Smaller padding */
         }
+        .division {
+            display: flex;
+            background-color: white gray;
+            box-shadow: inset;
+        }
+            
+
+            .box1 {
+                
+                padding: 20px; 
+                background-color:whitesmoke;
+                width: 80%; 
+                max-width: 600px; }
+                
+              
+              .box1 p {
+                margin: 0;
+                padding: 5px 0;
+              }
+              .box1 p.sub {
+                margin-top: 10px;
+                font-size: 14px;
+                color: black;
+              }
