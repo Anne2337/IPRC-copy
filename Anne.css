@@ -7,7 +7,7 @@
 
 .items {
     align-items: center;
-    /*justify-content: space-between;*/
+    
     display: flex;
     padding: 15px;
     margin: 0px;
@@ -63,13 +63,15 @@ a:hover{
         .container {
             display: flex;
             background-color:grey  ;
-    
+            margin-bottom: 0px;
             padding: 20px;
             width: 100vw; 
-         gap: 30px;
+            gap: 30px;
+             
         }
 
         .box {
+            
             background-color: white;
             padding: 50px;
             width: 20%;
@@ -77,11 +79,70 @@ a:hover{
             border-radius: 3px;
             height: outo;
         }
+        .box i{
+        margin-right: 50px; /* Space between icon and text */
+        color: #0000FF;
+        font-size: 30px;
+    }
+    .box .fa-arrow-right {
+        color: black;
+        font-size: 15px;
+    }
         .more  {
-            margin-top: 20px; /* Adds space above the 'more' section */
-            text-align: center; /* Center-align the text */
-            width: 30%; 
+         background-color: blue;
+         padding: 60px 20px;
+         width: 20%;
+         border-radius: 1px;
+         
+         min-height: 300px;
+         
+         box-shadow:0  4px 8px rgba(0,0,0,0.1);
+         margin-top: -150px;
+         margin-bottom: -20px;  
+         color:white; 
         }
+        .more .fa-rss {
+            color: orange; /* Set the RSS icon color to orange */
+            
+            top: 90px; /* Position the icon at the top */
+            right: 20px; /* Position the icon at the right */
+            font-size: 24px; /* Set the size of the icon */
+            margin-right: 50px;
+          }
+
+        .explore{
+            background-color: grey;
+            padding: 0px;
+            width: 100%;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 0px;
+            margin:0px;
+            margin-bottom: 50px;
+            height: 50px;
+        }
+        .sub {
+            width: 290px;            /* Set a fixed width */
+            height: 30px;           /* Set a fixed height */
+            background-color: #007bff; /* Blue background color */
+            border-radius: 4px;     /* Slightly rounded corners */
+            display: flex;          
+            align-items: center;    
+            justify-content: center; 
+            color: white;           
+            font-size: 16px; 
+            margin-left: 310px;
+            margin-right: 70px;
+            margin-bottom: 70px;}
+            .sub:hover {
+                background-color: #0056b3;
+            }
+        .link-container {
+                text-decoration: none; 
+                color: inherit;       /* Inherit text color */
+                display: block;}
+        
+        
+        
             
             
             
