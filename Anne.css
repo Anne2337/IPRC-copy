@@ -162,9 +162,16 @@ a:hover{
             }
         .link-container {
                 text-decoration: none; 
-                color: inherit;      
+                color: inherit;     
                 display:block;}
 
+                .update{
+                    padding: 20px;
+                    background-color: white;
+                    margin-left: 45px;
+                    margin-top: 30px;
+                }
+                
         .second-part{
             background-color: white;
             display: flex;
@@ -172,27 +179,35 @@ a:hover{
             margin-left: 70px;
             margin-top: 25px;
             margin-right: 30px;
+            text-decoration: none;
+        }
+        .second-part a {
+            text-decoration: none;
         }
         .pc1{
             border-radius: 10px;
             width: 40%;
             height: auto;
-        }
-        .update{
-            padding: 20px;
-            background-color: white;
-            margin-left: 45px;
-            margin-top: 30px;
-        }
+        } 
         .expl1 p{
             font-size: 15px;
             margin-right: 70px;
             margin-top: 20px;
+            color: black;
         }
         .expl2 p{
             color:lightgray;
             font-weight: bold;
+            margin-top: 20px;
+            
         }
+        
+        .read{
+            margin-top: 20px;
+            color: black;
+        }
+        
+        
         .sub-box {
             background-color:white;
             padding: 0px;
@@ -200,7 +215,7 @@ a:hover{
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             border-radius: 0px;
             margin:0px;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
             height: 50px;
         }
         .sub1 {
@@ -215,30 +230,100 @@ a:hover{
             font-size: 16px; 
             margin-left: 610px;
             margin-right: 70px;
-            margin-bottom: 70px;}
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
         
         ___________ second part css_____________
         .pc1 a {
             text-decoration: none;
-            color: inherit;
+            /*color: inherit;*/
         }
         
-        .pc1 a img {
+        /*.pc1 a img {
             display: block;
-        }
+        }*/
         
-        .pc1 a .expl1 h4, .pc1 a .expl2 p, .pc1 a .read p {
+        .pc1 a .expl1 h4,  .pc1 a .read p {
             color: black;
-        }
+            text-decoration: none;
+            }
         
         .pc1 a .read p {
             margin-top: 0;
+            text-decoration: none;
         }
+        
         
         .pc1 a .read p:hover {
             color: blue;
+            text-decoration: none;
+        }
+         /*  ____________________grey color part______________*/
+         .grey-color {
+            background-color:  grey; /* Set the background color to grey */
+            min-height: 150px; /* Ensures the div has at least 50px height */
+            padding: 0px; /* Adds padding inside the div */
+            margin-top: 0px;
         }
         
+        
+        
+        .logo1 {
+            display: flex; /* Flex layout for children */
+            justify-content: center; /* Center the items */
+            align-items: center; /* Center items vertically */
+            gap: 20px; /* Space between items */
+            background-color: white; /* Background color for the entire logo section */
+            padding: 20px; /* Padding around the container */
+            border-radius: 1px; /* Rounded corners for the logo section */
+        }
+    
+        .sub-log1 {
+            border: 1px solid gray; /* Black border around each image */
+            border-radius: 1px; /* Rounded corners for each image */
+            overflow: hidden; /* Ensures the image does not overflow the border radius */
+            background-color: white; /* Background color for each image container */
+            padding: 10px; /* Padding inside each image container */
+            display: flex; /* Flex layout for centering images */
+            align-items: center; /* Center image vertically */
+            justify-content: center; /* Center image horizontally */
+        }
+    
+        .sub-log1 img {
+            width: 150px; /* Set the maximum width of the images */
+            height: 100px; /* Set the maximum height of the images */
+            object-fit: contain; /* Ensure the image fits within the container */
+        }
+        .footer{
+          display: flex;
+          background-color:darkblue;
+          gap: 30px;
+          padding-top: 20px;
+        }
+        .userfull h3{
+            color: #0000FF;
+            padding-left: 150px;
+        }
+        .userfull p{
+           padding-top: 20px; 
+           color: white;
+           padding-left: 150px;
+        }
+        .contact-us h3 {
+            color: #0000FF; 
+
+        }
+        .contact-us p{
+            color:white;
+            padding: 20px;
+        }
+    
+    
+
+    
+
+
         
             
             
